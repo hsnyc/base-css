@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Base File -->
+     <link rel="stylesheet" href="base.css">
+
+    <title>BaseCSS Sample Page</title>
+</head>
+<body>
+
+    <section>
+        <!-- Lets do the holy grail layout -->
+        <div id="main-wrapper" class="flex flex-col h-screen">
+            <Nav />
+            <main class="grid grid-cols-1 grid-rows-[1fr_minmax(100px,_auto)] auto-rows-fr md:grid-cols-6 gap-4 grow">
+    
+                <div class="hidden md:block col-span-6 md:col-span-2 xl:col-span-1 bg-base-200 min-h-[100px] align-middle text-center">
+                    Left Nav / Aside
+                </div>
+    
+                <div class="col-span-6 md:col-span-4  min-h-[100px] p-10 bg-base-300 text-base-content">
+                    <h1 class="font-bold text-3xl mb-4">Holy Grail Layout, SOLVED!!!</h1>
+                    <p>Main Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat in aspernatur nesciunt ea dolorem vero ab vitae ipsa tempore, deleniti consequuntur sequi expedita ducimus facere eligendi, reprehenderit natus quo animi magni! Molestiae eligendi similique deserunt ut fugit, eius laborum corporis voluptatum maiores, facilis eos laudantium architecto sint nobis accusamus lore.</p>
+                </div>
+                <div class="hidden xl:block col-span-6 xl:col-span-1 bg-base-200 text-base-content min-h-[100px] content-center text-center p-6"><h3
+                    class="text-2xl mb-4">Right Nav / Aside</h3></div>
+                <footer class="col-span-6 bg-base-300 text-base-content min-h-[100px] content-center text-center p-6">Footer</footer>
+            </main>
+        </div>
+    </section>
+    
+</body>
+</html>
