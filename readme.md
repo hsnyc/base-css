@@ -4,7 +4,7 @@
 No npm .. just copy and paste the base.css file to your project's css or styles directory
 ```
 
-[![Some Link Here coming soon](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Some Link Here coming soon](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)](https://hsnyc.co)
 
 
 
